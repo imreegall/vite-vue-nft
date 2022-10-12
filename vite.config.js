@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vite-vue-nft/',
   publicPath: '/vite-vue-nft/',
   i18n: {
     seo: true
