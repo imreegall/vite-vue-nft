@@ -1,0 +1,16 @@
+@import 'mixin';
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    @include box-sizing(border-box);
+    list-style-type: none;
+    text-underline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}

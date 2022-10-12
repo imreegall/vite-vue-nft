@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Антон К.",
+    "img": "AntonK.png",
+    "post": "presidentOfTheCompany"
+  },
+  {
+    "name": "Али Д.",
+    "img": "AliD.png",
+    "post": "treasurer"
+  },
+  {
+    "name": "Светлана А.",
+    "img": "SvetlanaA.png",
+    "post": "accountant"
+  },
+  {
+    "name": "Владимир К.",
+    "img": "VladimirK.png",
+    "post": "supervisor"
+  },
+  {
+    "name": "Дмитрий М.",
+    "img": "DmitriyM.png",
+    "post": "backendDeveloper"
+  },
+  {
+    "name": "Полина Г.",
+    "img": "PolinaG.png",
+    "post": "systemsAnalyst"
+  },
+  {
+    "name": "Елена",
+    "img": "Elena.png",
+    "post": "3dArtist"
+  },
+  {
+    "name": "Анастасия К.",
+    "img": "AnastasiyaK.png",
+    "post": "webDesigner"
+  },
+  {
+    "name": "Ренат Г.",
+    "img": "RenatG.png",
+    "post": "webProgrammer"
+  }
+]

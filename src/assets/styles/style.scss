@@ -1,0 +1,43 @@
+@import "variables";
+@import "fonts";
+@import "mixin";
+@import "reset";
+
+button {
+  &.nft-btn {
+    cursor: pointer;
+    font-family: 'FS Albert Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127%;
+    color: #353434;
+
+    @media (max-width: 1439px) {
+      font-size: 17px;
+    }
+
+    @media (min-width: 1440px) {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 1439px) {
+  .desktop {
+    display: none;
+  }
+
+  * {
+    scroll-margin-top: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mobile {
+    display: none;
+  }
+
+  * {
+    scroll-margin-top: 73px;
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "nav" : {
+    "collection": "TOPLAMAK",
+    "preSale": "ÖN SATIŞ",
+    "roadMap": "YOL HARİTASI",
+    "team": "TAKIM",
+    "burgerMenu": {
+      "collection": "TOPLAMAK",
+      "preSale": "ÖN SATIŞ",
+      "roadMap": "YOL HARİTASI",
+      "team": "TAKIM"
+    }
+  },
+
+  "mainInfoPage" : {
+    "welcome": {
+      "description": "İnsanlık tarihine veya belirli bir ülkeye önemli katkılarda bulunmuş kişilere adanmış ilk NFT koleksiyonu"
+    },
+
+    "menu": {
+      "collection" : {
+        "title": "TOPLAMAK",
+        "text": [
+          "Sadece artık hayatta olmayan kişiler koleksiyona girebilir.",
+          "Her NFT belirli bir kişiye karşılık gelir.",
+          "NFT'de bir QR kodu gizlenir, bu da İnternet'te bir kişi, başarıları, onunla ilgili ilginç gerçekler ve olaylar hakkında bilgi veren bir sayfaya yönlendirir.",
+          "Tüm internet sayfaları aynı bilgi kaynağı içinde olacaktır. Bu portal internette aktif olarak tanıtılacak ve koleksiyonun popülaritesinin artmasına yardımcı olacaktır."
+        ]
+      },
+      "preSale": {
+        "title": "ÖN SATIŞ",
+        "text": [
+          "Koleksiyon, 3333 benzersiz 3D animasyonlu NFT'den oluşuyor.",
+          "Ekibimiz, açık artırma düzenleyerek NFT alıcılarının değerlerini bağımsız olarak belirlemelerini sağlar. Başlangıç fiyatı 149 TON.",
+          "NFT'leri uygun fiyatlarla satın alarak şirketin gelişimine yardımcı olursunuz!",
+          "İlk 333 NFT, 99 TON sabit fiyatla satılacak",
+          "GET ON THE WHITELIST"
+        ]
+      },
+      "roadMap": {
+        "title": "YOL HARİTASI",
+        "text": {
+          "Q3 2022": [
+            "Konseptin açıklaması",
+            "Takım oluşturma",
+            "Sosyal ağların lansmanı",
+            "Web sitesi geliştirme",
+            "NF'nin oluşturulması",
+            "Airdrop"
+          ],
+          "Q4 2022": [
+            "Reklam şirketi",
+            "Akıllı sözleşmelerin geliştirilmesi",
+            "Satış Öncesi NFT",
+            "Koleksiyonun pazar yerlerine yerleştirilmesi",
+            "Açık artırmanın açılması",
+            "Oylama sisteminin tanıtılması",
+            "TON topluluğu için hizmetlerin geliştirilmesi"
+          ]
+        }
+      }
+    },
+
+    "features": [
+      {
+        "img": "stars",
+        "text": "Her NFT elle çizilmiştir, üretken bileşenleri yoktur ve dijital bir sanat eseridir."
+      },
+      {
+        "img": "blank",
+        "text": [
+          "Koleksiyonerler belirli kararlara oy verebilir",
+          "1 NFT = 1 oy"
+        ]
+      },
+      {
+        "img": "society",
+        "text": "NFT kapalı bir topluluğa bir bilettir"
+      },
+      {
+        "img": "box",
+        "text": "Bireyin doğum gününde, NFT'nin sahibi cüzdan için bir hediye alır."
+      },
+      {
+        "img": "key",
+        "text": "Gelecekteki Yeşil Şirket ürünlerine özel erişim"
+      },
+      {
+        "img": "planet",
+        "text": "Her NFT'ye İnternet portalının tarihsel koleksiyonla ilgili bir bölümü atanır."
+      }
+    ],
+
+    "legends": {
+      "persons": "Kişilikler",
+      "fact": "Bir kişi ne kadar efsanevi olursa, koleksiyonda o kadar değerli olur - topluluk, bireyin dünya tarihindeki önemini bağımsız olarak belirleyecektir."
+    },
+
+    "about": {
+      "team": {
+        "mobile": "TAKIM",
+        "desktop": "TAKIM"
+      },
+      "text": {
+        "dollar": [
+          "Kuruluşumuz, zamanlarını sistematik projelerin geliştirilmesine yatırmış olan tüm katılımcıları arasındaki adil işbirliği ilkeleri üzerine kurulmuştur.",
+          "Şirketin sahibi veya sahibi yoktur, sorumlu kişi şirket başkanıdır. Tüm üyeler değiştirilebilir. Adını buradan alıyoruz: Yeşil Şirket.",
+          "Çevre dostu şirket, iç ekonomi için TON blok zincirinde kendi kripto para birimi TRUD parasına sahiptir.",
+          "İstisnasız her uzmanı, yaptığı görevi ve on bir puanlık bir ölçekte beceri seviyesini dikkate alarak ödüllendirmek için kullanılır.",
+          "Bir topluluk parası satın almak için kampanya yapmıyoruz, bu, kârın adil bir şekilde dağıtılması için bir araçtır ve adil bir kurumsal ekonominin garantisidir."
+        ],
+        "statistic": [
+          "Sayı 1.000.000.000 ile sınırlıdır. Madeni paralar, belirli eylemler için insanlara yapılan ödemeler yoluyla dolaşıma girer. Şirketin tüm kârı madeni paraları geri almaya gider, hazineye iade edilir. Bir madeni paranın fiyatı minimum değerlerde olduğunda, katılımcıların çalışmaları için daha fazla madeni para aldıkları ortaya çıktı."
+        ],
+        "coin": [
+          "Yarattıkları ürünler kar etmeye başlar başlamaz, tamamen madeni paranın itfasına harcanır - değeri artar. Bu nedenle, aynı eylem için önceki sayıda jeton elde etmek mümkün olmaktan çıkar.",
+          "Bu değişiklik sistemdeki tüm katılımcıları istisnasız birbirleriyle orantılı olarak etkiler."
+        ],
+        "no-image": [
+          "Dolaşımdaki tüm paralar zamana, insanların becerilerine ve yarattıkları hizmetlere göre desteklenir!"
+        ]
+      }
+    },
+
+    "team": {
+      "members": "Üyeler",
+      "posts": {
+        "presidentOfTheCompany": "şirket başkanı",
+        "treasurer": "Sayman",
+        "accountant": "Muhasebeci",
+        "supervisor": "Süpervizör",
+        "backendDeveloper": "Arka uç geliştiricisi",
+        "systemsAnalyst": "Sistem analizcisi",
+        "3dArtist": "3D sanatçı",
+        "webDesigner": "web tasarımcısı",
+        "webProgrammer": "web programcısı"
+      }
+    }
+  }
+}

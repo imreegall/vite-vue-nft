@@ -1,0 +1,140 @@
+{
+  "nav" : {
+    "collection": "Collection",
+    "preSale": "Presale",
+    "roadMap": "Road map",
+    "team": "Team",
+    "burgerMenu": {
+      "collection": "COLLECTION",
+      "preSale": "PRESALE",
+      "roadMap": "ROAD MAP",
+      "team": "TEAM"
+    }
+  },
+
+  "mainInfoPage" : {
+    "welcome": {
+      "description": "The first NFT collection dedicated to people who have made a significant contribution to the history of mankind or a particular country"
+    },
+
+    "menu": {
+      "collection" : {
+        "title": "COLLECTION",
+        "text": [
+          "Only those humans who are no longer alive can get into the collection.",
+          "Each NFT corresponds to a specific person.",
+          "A QR code is hidden in the NFT, which leads to a page on the Internet, which tells about a person, his achievements, interesting facts and events related to him.",
+          "All Internet pages will be within the same information resource. This portal will be actively promoted on the Internet and help increase the popularity of the collection."
+        ]
+      },
+      "preSale": {
+        "title": "PRESALE",
+        "text": [
+          "The collection consists of 3333 unique 3D animated NFTs.",
+          "Our team enables NFT buyers to independently determine their value by holding an open auction. Starting price 149 TON.",
+          "Buying NFTs at fair prices, you help the development of the company!",
+          "The first 333 NFTs will be sold at a fixed price of 99 TON",
+          "GET ON THE WHITELIST"
+        ]
+      },
+      "roadMap": {
+        "title": "ROAD MAP",
+        "text": {
+          "Q3 2022": [
+            "Description of the concept",
+            "Team building",
+            "Launch of social networks",
+            "Website development",
+            "Creation of NFTs",
+            "Airdrop"
+          ],
+          "Q4 2022": [
+            "Advertising company",
+            "Development of smart contracts",
+            "Presale NFT",
+            "Placement of the collection on marketplaces",
+            "Opening of a public auction",
+            "Introduction of the voting system",
+            "Development of services for the TON community"
+          ]
+        }
+      }
+    },
+
+    "features": [
+      {
+        "img": "stars",
+        "text": "Each NFT is hand-drawn, has no generative components, and is a digital work of art"
+      },
+      {
+        "img": "blank",
+        "text": [
+          "Collectors can vote on certain decisions",
+          "1 NFT = 1 vote"
+        ]
+      },
+      {
+        "img": "society",
+        "text": "NFT is a ticket for a private community"
+      },
+      {
+        "img": "box",
+        "text": "On the birthday of the human, the owner of the NFT receives a gift in the wallet"
+      },
+      {
+        "img": "key",
+        "text": "Exclusive access to future products of \"Ecological company\""
+      },
+      {
+        "img": "planet",
+        "text": "Each NFT is assigned a part of the Internet portal related to the historical collection"
+      }
+    ],
+
+    "legends": {
+      "persons": "Legends",
+      "fact": "The more legendary a person is, the more valuable he will be in the collection - the community will independently determine the importance of an     individual in world history!"
+    },
+
+    "about": {
+      "team": {
+        "mobile": "TEAM",
+        "desktop": "TEAM"
+      },
+      "text": {
+        "dollar": [
+          "Our organization is built on fair principles of cooperation between all its participants who have ever invested their time in the development of systemic projects.",
+          "The company has no owner, the President of the company is the responsible person. All members are interchangeable. That's where we get the name: \"Ecological company\"",
+          "The Ecological company has its own cryptocurrency TRUD Token on the TON blockchain, for the internal economy.",
+          "It is used to reward each specialist without exception, taking into account the task performed by him and the skill level on an eleven-point scale.",
+          "We are not campaigning to buy a community Token, it is a tool for a fair distribution of profits and a guarantee of a fair corporate economy."
+        ],
+        "statistic": [
+          "The emission has a limited number of 1.000.000.000. Tokens enter circulation through payments to people for specific actions. All profits of the company go to buy back the coins, they are returned to the treasury. It turns out that when the price of a coin is at its minimum values, participants receive more coins for their work."
+        ],
+        "coin": [
+          "As soon as the products created by them begin to make a profit, it is completely spent on the redemption of the coin - its value grows. Therefore, getting the previous number of coins for the same action ceases to be possible.",
+          "This change affects all participants in the system, without exception, in proportion to each other."
+        ],
+        "no-image": [
+          "All Tokens in circulation are backed by time, the skills of people and the services they create!"
+        ]
+      }
+    },
+
+    "team": {
+      "members": "Members",
+      "posts": {
+        "presidentOfTheCompany": "President of the company",
+        "treasurer": "Treasurer",
+        "accountant": "Accountant",
+        "supervisor": "Supervisor",
+        "backendDeveloper": "Backend developer",
+        "systemsAnalyst": "Systems Analyst",
+        "3dArtist": "3D artist",
+        "webDesigner": "Web designer",
+        "webProgrammer": "Web programmer"
+      }
+    }
+  }
+}

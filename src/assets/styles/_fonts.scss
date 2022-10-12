@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'FS Albert Pro';
+  src: url('/src/assets/font/FS Albert Pro/ExtraBold/FSAlbertPro-ExtraBold.eot');
+  src: local('FS Albert Pro ExtraBold'), local('FSAlbertPro-ExtraBold'),
+  url('/src/assets/font/FS Albert Pro/ExtraBold/FSAlbertPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('/src/assets/font/FS Albert Pro/ExtraBold/FSAlbertPro-ExtraBold.woff2') format('woff2'),
+  url('/src/assets/font/FS Albert Pro/ExtraBold/FSAlbertPro-ExtraBold.woff') format('woff'),
+  url('/src/assets/font/FS Albert Pro/ExtraBold/FSAlbertPro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS Albert Pro';
+  src: url('/src/assets/font/FS Albert Pro/Bold/FSAlbertPro-Bold.eot');
+  src: local('FS Albert Pro Bold'), local('FSAlbertPro-Bold'),
+  url('/src/assets/font/FS Albert Pro/Bold/FSAlbertPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/src/assets/font/FS Albert Pro/Bold/FSAlbertPro-Bold.woff2') format('woff2'),
+  url('/src/assets/font/FS Albert Pro/Bold/FSAlbertPro-Bold.woff') format('woff'),
+  url('/src/assets/font/FS Albert Pro/Bold/FSAlbertPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+  url('/src/assets/font/Montserrat/Bold/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat SemiBoldItalic'), local('Montserrat-SemiBoldItalic'),
+  url('/src/assets/font/Montserrat/SemiBoldItalic/Montserrat-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+  url('/src/assets/font/Montserrat/SemiBold/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+  url('/src/assets/font/Montserrat/Regular/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat LightItalic'), local('Montserrat-LightItalic'),
+  url('/src/assets/font/Montserrat/LightItalic/Montserrat-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Miratrix';
+  src: local('Miratrix Regular'), local('Miratrix-Regular'),
+  url('/src/assets/font/Miratrix/Regular/Miratrix-Normal.otf') format('truetype');
+  src: url('/src/assets/font/Miratrix/Regular/Miratrix-Normal.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.greenText {
+  color: #83F84C;
+}
+
+.italic {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 130.5%;
+  letter-spacing: 0.005em;
+
+  @media (max-width: 1439px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 22px;
+  }
+}
+
+// main title
+h1 {
+  font-family: 'Miratrix', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+
+  @media (max-width: 1439px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 80px;
+    line-height: 96px;
+  }
+}
+
+// section names
+h2 {
+  font-family: 'Miratrix', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.5%;
+  letter-spacing: 0.09em;
+
+  @media (max-width: 1439px) {
+    font-size: 26px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 45px;
+  }
+}
+
+// all text
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.5%;
+  letter-spacing: 0.005em;
+
+  @media (max-width: 1439px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 22px;
+  }
+}
+
+// 3333
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+}
+
+// 3333 -> persons
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  @media (max-width: 1439px) {
+    font-weight: 600;
+  }
+
+  @media (min-width: 1440px) {
+    font-weight: 700;
+  }
+}
+
+// navigation
+h6 {
+  @media (max-width: 1439px) {
+    font-family: 'FS Albert Pro', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+  }
+
+  @media (min-width: 1440px) {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+  }
+}
