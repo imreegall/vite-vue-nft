@@ -6,9 +6,12 @@
 
         <div
             class="teammate"
-            v-for="employee in this.employees"
+            v-for="(employee, index) in this.employees"
         >
-          <img :src="'/src/assets/images/employees/' + employee.img" alt="">
+<!--          <img :src="imagesPaths[1]" alt="">-->
+<!--          <img :src="selectedImage" alt="">-->
+<!--          <img :src="imageURL" alt="">-->
+          <img :src="selectedImageId" alt="">
           <p>{{employee.name}}</p>
           <p dir="auto">{{$t('mainInfoPage.team.posts.' + employee.post)}}</p>
         </div>
@@ -25,12 +28,42 @@
 
 <script>
 import {employees} from "../employees/index.js";
+import image1 from '/src/assets/images/employees/SvetlanaA.png'
+import image2 from '/src/assets/images/employees/Elena.png'
+import image3 from '/src/assets/images/employees/VladimirK.png'
+import image4 from '/src/assets/images/employees/AliD.png'
+import image5 from '/src/assets/images/employees/RenatG.png'
+import image6 from '/src/assets/images/employees/PolinaG.png'
+import image7 from '/src/assets/images/employees/DmitriyM.png'
+import image8 from '/src/assets/images/employees/AntonK.png'
+import image9 from '/src/assets/images/employees/AnastasiyaK.png'
+
+const imagePaths = [
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+    image7,
+    image8,
+    image9
+]
 
 export default {
   name: "nft-main-info-page-team",
   data() {
     return {
-      employees
+      employees,
+      selectedImageId: -1
+    }
+  },
+  methods: {},
+  computed: {
+    selectedImageId(e) {
+      this.selectedImageId += 1
+      console.log(e.target);
+      return imagePaths[this.selectedImageId]
     }
   }
 }

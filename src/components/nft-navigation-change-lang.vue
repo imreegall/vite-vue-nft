@@ -36,7 +36,7 @@ export default {
 
     //смена и сохранение языка на выбранный
     changeLang(elem) {
-      this.pageLang = elem.currentTarget.innerText.toLowerCase()
+      this.pageLang = elem.currentTarget.innerText.toLowerCase().trim()
     }
   },
   watch: {
