@@ -8,7 +8,7 @@
             class="teammate"
             v-for="employee in this.employees"
         >
-          <img :src="'/public/employees/' + employee.img + '.png" alt="">
+          <img :src="'/public/employees/' + employee.img + '.png'" alt="">
           <p>{{employee.name}}</p>
           <p dir="auto">{{$t('mainInfoPage.team.posts.' + employee.post)}}</p>
         </div>
