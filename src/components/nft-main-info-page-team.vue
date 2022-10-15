@@ -10,7 +10,7 @@
         >
 <!--          <img :src="'/public/employees/' + employee.img + '.png'" alt="">-->
 <!--          <img :src=getImgURL(employee.img) alt="">-->
-          <img :src="'employees/' + employee.img + '.png'" alt="">
+          <img :src="'images/employees' + employee.img + '.png'" alt="">
           <p>{{employee.name}}</p>
           <p dir="auto">{{$t('mainInfoPage.team.posts.' + employee.post)}}</p>
         </div>

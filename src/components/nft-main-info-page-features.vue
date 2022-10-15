@@ -2,7 +2,7 @@
   <div class="nft-main-info-page-features">
 
     <div class="card" v-for="card in $tm('mainInfoPage.features')" dir="auto">
-      <img :src="'/src/assets/images/svg/' + card.img + '.svg'" alt="">
+      <img :src="'assets/images/features/' + card.img + '.svg'" alt="">
       <h3 v-for="text in Array.isArray(card.text) ? card.text : [card.text]">{{text}}</h3>
     </div>
 
