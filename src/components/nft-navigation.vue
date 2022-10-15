@@ -61,7 +61,7 @@ export default {
         body.setAttribute('scroll', 'no')
       }
       else {
-        body.removeAttribute('scroll', 'no')
+        body.removeAttribute('scroll')
       }
     }
   }
