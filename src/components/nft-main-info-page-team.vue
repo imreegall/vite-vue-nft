@@ -9,7 +9,8 @@
             v-for="employee in this.employees"
         >
 <!--          <img :src="'/public/employees/' + employee.img + '.png'" alt="">-->
-          <img :src=getImgURL(employee.img) alt="">
+<!--          <img :src=getImgURL(employee.img) alt="">-->
+          <img :src="'employees/' + employee.img + '.png'" alt="">
           <p>{{employee.name}}</p>
           <p dir="auto">{{$t('mainInfoPage.team.posts.' + employee.post)}}</p>
         </div>
@@ -36,10 +37,10 @@ export default {
     }
   },
   methods: {
-    getImgURL(pic) {
-      // return require('/public/employees/' + pic + '.png')
-      return new URL('employees/' + pic + '.png', import.meta.url).href
-    }
+    // getImgURL(pic) {
+    //   // return require('/public/employees/' + pic + '.png')
+    //   return new URL('employees/' + pic + '.png', import.meta.url).href
+    // }
   }
 }
 </script>
