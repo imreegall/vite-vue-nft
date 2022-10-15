@@ -36,7 +36,7 @@ export default {
   .nft-burger-menu {
     @media (max-width: 1439px) {
       display: none;
-      position: fixed;
+      position: sticky;
       width: 100%;
       height: 100vh;
       background-color: #83F84C;
