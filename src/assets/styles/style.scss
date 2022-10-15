@@ -41,3 +41,9 @@ button {
     scroll-margin-top: 73px;
   }
 }
+
+body {
+  &.no-scroll {
+    overflow: hidden;
+  }
+}

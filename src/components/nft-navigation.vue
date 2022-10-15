@@ -54,6 +54,15 @@ export default {
 
       const parent = element.parentElement
       parent.classList.toggle('hide')
+
+      const body = document.body
+      body.classList.toggle('no-scroll')
+      if (body.classList.contains('no-scroll')) {
+        body.setAttribute('scroll', 'no')
+      }
+      else {
+        body.removeAttribute('scroll', 'no')
+      }
     }
   }
 
