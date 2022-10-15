@@ -96,12 +96,6 @@ export default {
       bottom:0;
     }
 
-    &.active {
-      &:before {
-        @include backdrop-filter(0px);
-      }
-    }
-
     .logo {
       @media (max-width: 1439px) {
         display: none;
@@ -144,7 +138,11 @@ export default {
 
     &.hide {
       background-color: transparent;
-      border: none
+      border: none;
+
+      &:before {
+        @include backdrop-filter(0px);
+      }
     }
   }
 </style>
