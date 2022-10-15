@@ -38,7 +38,7 @@ export default {
   methods: {
     getImgURL(pic) {
       // return require('/public/employees/' + pic + '.png')
-      return new URL('/public/employees/' + pic + '.png', import.meta.url).href
+      return new URL('/employees/' + pic + '.png', import.meta.url).href
     }
   }
 }
