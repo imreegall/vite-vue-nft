@@ -7,8 +7,8 @@
       <template v-for="(arrayOfText, index) in $tm('mainInfoPage.about.text')">
         <h3 v-for="text in arrayOfText">{{text}}</h3>
 
-        <img v-if="index !== 'no-image'" class="mobile" :src="'/src/assets/images/svg/' + index + 'M.svg'" alt="">
-        <img v-if="index !== 'no-image'" class="desktop" :src="'/src/assets/images/svg/' + index + 'D.svg'" alt="">
+        <img v-if="index !== 'no-image'" class="mobile" :src="'assets/images/about/' + index + 'M.svg'" alt="">
+        <img v-if="index !== 'no-image'" class="desktop" :src="'assets/images/about/' + index + 'D.svg'" alt="">
       </template>
 
     </div>
